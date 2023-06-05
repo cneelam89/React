@@ -1,0 +1,38 @@
+Q.1 What is emmet?
+Ans:: Emmet is a built-in feature of VS code, so it does not require any addiional installation. 
+      By using shorthand and abbreviations, Emmet greatly improves and speeds up your HTMl and CSS workflow.
+
+      Emmet uses different and short expressions depending on what is passed, and then dynamically converts the abbreviation into th full code.
+      Emmet is mostly used for HTML, XML and CSS but it can also be used with programming languages.
+
+Q.2 Difference between a library and framework?
+Ans:: 1.frameworks and libraries are both code written by someone else hat helps you perform some common tasks inn a less verbose way.
+      2.A framework inverts the control of the program. It tells the developer what they need.  A library doesn't. The programmer calls the library when and where they needed it.
+      3.It is easy to replace a library with another library. For instance, if you do not like the jQuery date picker library, you can use another date picker like a bootstrap date picker or pick date.
+        Frameworks are difficult to replace. If, for instance, you were using AngularJS to build your product, you cannot simply swap it out for another framework. It requires rewriting the entire codebase.
+      4.You can integrate libraries seamlessly into existing projects to add functionality. Incorporating frameworks seamlessly into an existing project is impossible. Instead, frameworks should be used when starting a new project.
+      libraries examples:: JQuery, React JS, etc.
+      frameworks examples:: Spring, NodeJS, AngularJS, Vue JS, etc.
+Q.3 what is CDN and why we use it?
+Ans:: A CDN(content delivery network) is also known as content distribution network, is a group of geographically distributed and interconnected servers. They provide cached internet contentfrom a network location that is closest to a user to speed up its delivery.
+      The primary goal of a CDN is to improve web performance by reducing the time needed to send content and rich media to users.
+Q.4 why React is known as React?
+Ans:: React is called "React" because of its core feature, which is its ability to "react" or respond dynamically to changes in data. React's primary goal is to simplify the creation of complex, interactive user interfaces by breaking them down into smaller, reusable components.
+      These components are built using a declarative syntax that allows developers to describe what the interface should look like at any given moment, and React takes care of efficiently updating the DOM (Document Object Model) as needed when the data changes.
+      The name "React" also reflects the fact that the library is built around the concept of a unidirectional data flow, where changes in data flow down through the component hierarchy, triggering updates and re-renders as necessary. This approach helps to avoid common issues with two-way data binding, such as performance problems and hard-to-debug code.
+Q.5 What is crossorigin in script tag?
+Ans:: The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+      CORS: It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource like audio, video, script, etc. from the third party server without leaking their credentials information. 
+      anonymous: It has a default value. It defines a CORS request which will be sent without passing the credential information.
+      use-credentials: A cross-origin request will be sent with credentials, cookies, and certificate
+Q.6 what is difference between react and reactdom?
+Ans:: React is holds core features of React. So, if we want work in React it is mandatory to inject react into our code.
+      Where as ReactDOM is responsible for DOM manipulations.
+Q.7 what is difference between react.development.js and react.production.js files via cdn?
+Ans:: The developmet versions are only meant for development, and are not suitable for production. 
+      production version are minified and optimized production versions of React.
+Q.8 what are async and defer?
+Ans:: HTML parsing goes on and scripts are fetched asynchronously(parallelly) and once the scripts are available, the scripts are executed. After that only HTML parsing continues.
+      HTMl parsing goes on and scripts are fetched in parallel and only executed once the HTMl parsing is completed.
+
+      Async attribute does not guarantee the order of execution of scripts but defer does.
